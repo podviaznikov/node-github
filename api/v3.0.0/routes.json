@@ -3101,12 +3101,12 @@
                     "type": "Number",
                     "required": false,
                     "validation": "",
-                    "description": "The integer ID of the last User that you’ve seen." 
+                    "description": "The integer ID of the last User that you’ve seen."
                 }
             }
-            
+
         },
-        
+
         "get-from": {
             "url": "/users/:user",
             "method": "GET",
@@ -3117,6 +3117,12 @@
 
         "get": {
             "url": "/user",
+            "method": "GET",
+            "params": {}
+        },
+
+        "get-by-id": {
+            "url": "/user/:id",
             "method": "GET",
             "params": {}
         },
