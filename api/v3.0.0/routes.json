@@ -3124,7 +3124,9 @@
         "get-by-id": {
             "url": "/user/:id",
             "method": "GET",
-            "params": {}
+            "params": {
+                "$id": null
+            }
         },
 
         "update": {
